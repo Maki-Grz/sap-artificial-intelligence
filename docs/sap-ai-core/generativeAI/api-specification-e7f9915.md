@@ -11,7 +11,7 @@ Use the Tabular AI Orchestration Prediction API to submit inference requests, co
 Tabular AI Orchestration exposes a single prediction endpoint for inference requests.
 
 ```
-curl POST "$DEPLOYMENT_URL/v1/predict"
+curl POST "$DEPLOYMENT_URL/predict"
 ```
 
 

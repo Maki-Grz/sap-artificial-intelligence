@@ -5,7 +5,7 @@
 > ### Tip:  
 > If you use a Windows device, use Windows PowerShell, and replace `curl` with `curl.exe`.
 
-Ensure that you've set the following headers:
+Check that you've set the following headers:
 
 
 <table>

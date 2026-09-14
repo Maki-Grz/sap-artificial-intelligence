@@ -4,7 +4,7 @@
 
 
 
-`SAP-RPT-1.5` and `SAP-RPT-1.6` support an explainability feature that provides insight into how the model generates predictions.
+`SAP-RPT-1.6` supports an explainability feature that provides insight into how the model generates predictions.
 
 Enable explainability by adding an `explanations` configuration to `prediction_config` in the request.
 
@@ -248,7 +248,7 @@ Query row indexes and API input row positions represent different values. Query 
 
 When using Parquet input, preserve the row order from the uploaded table and use the returned row positions against that same table.
 
-For a complete runnable example that prints row mappings and explanation details, see the sample file `sap-rpt-samples/sap-rpt-1.6/code_samples/python/predict.py` in the SAP RPT samples repository.
+For a complete runnable example that prints row mappings and explanation details, see the sample file [sap rpt samples](https://github.com/SAP-samples/sap-rpt-samples/tree/main/sap-rpt-1.6/code_samples/python/predict.py) in the SAP RPT samples repository.
 
 **Example Response with Explanations**
 

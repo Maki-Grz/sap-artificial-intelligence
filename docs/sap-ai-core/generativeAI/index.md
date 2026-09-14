@@ -28,6 +28,8 @@
             -   [SAP-ABAP-1](sap-abap-1-d197270.md)
                 -   [Example Payloads for Inferencing: SAP-ABAP-1](example-payloads-for-inferencing-sap-abap-1-9ea7333.md)
                 -   [Prompting Templates](prompting-templates-214c3c3.md)
+        -   [Prior Labs](prior-labs-b6b6c24.md)
+            -   [TabPFN-3.5 Plus](tabpfn-3-5-plus-10eee99.md)
     -   Model Consumption Methods
         -   [Foundation Models](foundation-models-2d981fb.md)
             -   [Get an Auth Token](get-an-auth-token-5ec7ec0.md)
