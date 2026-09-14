@@ -16,11 +16,11 @@ To use a model through the `orchestration` scenario, using the harmonized API, s
 
 ## Accessing Models through Orchestration
 
-Orchestration offers a harmonized API that allows you to use different models without changing the client code. You likely have an orchestration deployment running in your default resource group. If you want to access models through orchestration in a different resource group, you'll need to create an orchestration deployment for your chosen resource group. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
+Orchestration offers a harmonized API that allows you to use different models without changing the client code. You likely have an orchestration deployment running in your default resource group. If you want to access models through orchestration in a different resource group, create an orchestration deployment for your chosen resource group. For more information, see .[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 Access to orchestration of generative AI models is provided under the global AI scenario `orchestration`, which is managed by SAP AI Core.
 
-To access generative AI models using orchestration, you'll need to add following information to the `model` module of your orchestration workflow:
+To access generative AI models using orchestration, add the following information to the `model` module of your orchestration workflow:
 
 -   The name of your chosen model
 -   The version name of your chosen version. If no model version is listed, it is not applicable.
@@ -33,7 +33,7 @@ For more information about orchestration workflows, see [Orchestration Workflow 
 
 ## Accessing Models through the `foundation-models` Scenario
 
-You can access foundation models by creating a deployment for the model that you want to use. To do this, you'll need an auth token from your SAP AI Core instance. For more information, see [Get an Auth Token](get-an-auth-token-0808d42.md) and [Create a Deployment](create-a-deployment-b32e7a8.md).
+You can access foundation models by creating a deployment for the model that you want to use. To do so, you need an auth token from your SAP AI Core instance. For more information, see [Get an Auth Token](get-an-auth-token-0808d42.md) and [Create a Deployment](create-a-deployment-b32e7a8.md).
 
 To create your deployment, you'll need the following information:
 
@@ -43,13 +43,13 @@ To create your deployment, you'll need the following information:
 -   The name of your chosen model
 -   The version name of your chosen version. If no model version is listed, it is not applicable.
 
-To use a specific version of a model, or to upgrade model versions manually, specify the model version your model deployment. To upgrade automatically, use model version: `latest`. For more information, see [Model Lifecycle](model-lifecycle-313fe25.md). If no model version is listed, it is not applicable.
+To use a specific version of a model or to upgrade model versions manually, specify the version of your model deployment. To upgrade automatically, specify the model version as `latest`. For more information, see [Model Lifecycle](model-lifecycle-313fe25.md). If a model version isn't listed, the model isn't applicable.
 
 Perplexity models are remote models.
 
-After creating a deployment for your model, you consume the model using prompts. To access the model, you'll need your deployment ID, this can be set as an environment variable.
+After you've created a deployment for your model, you can consume the model using prompts. To access the model, you need your deployment ID, which you can set as an environment variable.
 
-Ensure that you've set the following headers:
+Check that you've set the following headers:
 
 
 <table>
@@ -155,5 +155,5 @@ For more information about supported parameters, see [Supported Parameters](supp
 
 ## Removing a Model
 
-If you want to remove a model, delete its deployment. For more information, see [Delete a Single Deployment](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/1b0b3612e5f948a6af5e593a61f711ce.html "") :arrow_upper_right:
+If you want to remove a model, delete its deployment. For more information, see [Delete a Single Deployment](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/1b0b3612e5f948a6af5e593a61f711ce.html "") :arrow_upper_right:
 

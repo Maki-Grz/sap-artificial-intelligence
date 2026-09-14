@@ -4,7 +4,7 @@
 
 The orchestration service runs on SAP AI Core under the global AI scenario `orchestration`. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.
 
-Orchestration offers a harmonized API that allows you to use different foundation models without changing the client code. To use different foundation models and versions, you need to create at least one orchestration deployment, or use the orchestration deployment in your default resource group.
+Orchestration offers a harmonized API that allows you to use different foundation models without changing the client code. To use different foundation models and versions, create at least one orchestration deployment or use the orchestration deployment in your default resource group.
 
 Key features of orchestration include:
 
